@@ -1,4 +1,4 @@
-# UDO — User Data Ownership
+# UDO, User Data Ownership 
 
 > A human-centric recommendation engine that puts users in control of their own data and preferences.
 
@@ -17,15 +17,15 @@ UDO is a recommendation system built around a simple principle: the user is the 
 
 ## Core features
 
-**Expressive input** — users define their tastes in their own words: primary preferences, secondary desires, contextual notes. Structured but human.
+**Expressive input** users define their tastes in their own words: primary preferences, secondary desires, contextual notes. Structured but human.
 
-**Reversible feedback** — likes, scores, and reactions are not permanent signals silently shaping a hidden model. They are visible, editable, and removable at any time.
+**Reversible feedback**  likes, scores, and reactions are not permanent signals silently shaping a hidden model. They are visible, editable, and removable at any time.
 
-**Transparent recommendations** — a dedicated view lets users trace why a suggestion appears. No black box.
+**Transparent recommendations** a dedicated view lets users trace why a suggestion appears. No black box.
 
-**You own your data** — UDO stores data locally or in a user-controlled backend. Nothing is hidden or harvested.
+**You own your data**  UDO stores data locally or in a user-controlled backend. Nothing is hidden or harvested.
 
-**Composable** — designed to integrate with marketplaces, media apps, or any user-facing system.
+**Composable**  designed to integrate with marketplaces, media apps, or any user-facing system.
 
 ---
 
@@ -33,13 +33,13 @@ UDO is a recommendation system built around a simple principle: the user is the 
 
 UDO is built around four components:
 
-1. **Input engine** — structured fields and open text (primary preferences, secondary desires, contextual info). Users write what they want, not just click what they see.
+1. **Input engine** structured fields and open text (primary preferences, secondary desires, contextual info). Users write what they want, not just click what they see.
 
-2. **Feedback tracker** — likes, dislikes, scores, emotional tags. All accessible, editable, and reviewable. Nothing is final.
+2. **Feedback tracker** likes, dislikes, scores, emotional tags. All accessible, editable, and reviewable. Nothing is final.
 
-3. **Recommendation core** — uses LLM + rules-based filtering to propose items from a public or private catalogue. Logic is inspectable.
+3. **Recommendation core** uses LLM + rules-based filtering to propose items from a public or private catalogue. Logic is inspectable.
 
-4. **User dashboard** — view, revise, or remove any input. See how recommendations respond. The user's model of themselves is always visible.
+4. **User dashboard** view, revise, or remove any input. See how recommendations respond. The user's model of themselves is always visible.
 
 ---
 
@@ -47,10 +47,10 @@ UDO is built around four components:
 
 UDO is designed to grow in two stages, each meaningful on its own:
 
-**Stage 1 — Transparency (current focus)**
+**Stage 1. Transparency (current focus)**
 The preference UI and dashboard. Users see and control everything the system holds about them. The vector may still live on the server at this stage — but it is legible, editable, and belongs conceptually to the user. This is already a meaningful gap from every mainstream recommendation system today.
 
-**Stage 2 — Sovereignty**
+**Stage 2. Sovereignty**
 The vector moves to the client device, encrypted at rest under a key the user controls. The server holds the model and catalogue; it never stores a user profile. Inference loads the vector transiently, scores items, and discards it. A future AI system cannot retroactively reprocess data that was never stored.
 
 The motivation: a preference vector is a detailed map of a person's psychology. As AI systems grow more capable, that map becomes more dangerous in the wrong hands. Stage 1 makes it visible. Stage 2 makes it yours.
