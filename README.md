@@ -1,9 +1,12 @@
-# UDO, User Data Ownership 
+<img src="./.github/brand/mark.svg" alt="AI SAFE EARTH" width="72">
+
+# UDO, User Data Ownership
 
 > A human-centric recommendation engine that puts users in control of their own data and preferences.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Status: Early Development](https://img.shields.io/badge/status-early%20development-orange)]()
+![Pillar](https://img.shields.io/badge/BUILD-CONCEPT-8A6D2F?style=flat-square&labelColor=131A21)
+[![License](https://img.shields.io/badge/LICENSE-MIT-1F5D7A?style=flat-square&labelColor=131A21)](LICENSE)
+[![Umbrella](https://img.shields.io/badge/AI_SAFE_EARTH-open_umbrella-131A21?style=flat-square&labelColor=131A21)](https://github.com/ai-safe-earth)
 
 ---
 
@@ -70,3 +73,7 @@ We welcome discussions, ideas, and issue reports. If you'd like to collaborate, 
 ## License
 
 MIT
+
+---
+
+<sub>A project under <a href="https://github.com/ai-safe-earth">AI SAFE EARTH</a> · the fourth ring, around communities · AI safety &amp; civic tech</sub>
