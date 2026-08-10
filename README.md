@@ -63,7 +63,7 @@ Full design specs are in [`docs/`](docs/).
 
 Early development. The project is at the design and scaffolding stage.
 
-We welcome discussions, ideas, and issue reports. If you'd like to collaborate, please [open an issue](https://github.com/dialogoo/UDO/issues).
+We welcome discussions, ideas, and issue reports. If you'd like to collaborate, please [open an issue](https://github.com/ai-safe-earth/UDO/issues).
 
 ---
 
